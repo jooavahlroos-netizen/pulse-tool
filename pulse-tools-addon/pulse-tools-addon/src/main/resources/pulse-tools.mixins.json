@@ -1,0 +1,11 @@
+{
+  "required": false,
+  "package": "com.pulsetools.addon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "pulse-tools",
+  "version": "1.0.1",
+  "name": "Pulse Tools",
+  "description": "Swing Speed, Chunk Finder and Spawner Finder for Meteor Client.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": {
+    "meteor": ["com.pulsetools.addon.PulseTools"]
+  },
+  "mixins": ["pulse-tools.mixins.json"],
+  "custom": {
+    "meteor-client:color": "40,200,120"
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "meteor-client": "*"
+  }
+}
